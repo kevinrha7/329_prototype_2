@@ -1,0 +1,40 @@
+.category-section {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #eaecf0;
+}
+
+.category-section:last-child {
+  border-bottom: none;
+}
+
+.category-heading {
+  font-size: 1.75rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  color: #000;
+  border-bottom: 1px solid #a2a9b1;
+  padding-bottom: 0.25rem;
+}
+
+.category-blurb {
+  color: #54595d;
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .resource-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .category-heading {
+    font-size: 1.5rem;
+  }
+}

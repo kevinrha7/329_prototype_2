@@ -1,0 +1,81 @@
+.toc {
+  background-color: #f8f9fa;
+  border: 1px solid #a2a9b1;
+  border-radius: 2px;
+  padding: 1rem;
+}
+
+.toc-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #000;
+}
+
+.toc-list {
+  list-style: none;
+}
+
+.toc-category {
+  margin-bottom: 0.75rem;
+}
+
+.toc-category:last-child {
+  margin-bottom: 0;
+}
+
+.toc-link {
+  color: #0645ad;
+  text-decoration: none;
+  font-size: 0.9rem;
+  display: block;
+  line-height: 1.5;
+  transition: color 0.2s;
+}
+
+.toc-link:hover {
+  color: #0b0080;
+  text-decoration: underline;
+}
+
+.toc-link-category {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.toc-resources {
+  list-style: none;
+  margin-left: 1rem;
+  margin-top: 0.25rem;
+}
+
+.toc-resources li {
+  margin-bottom: 0.25rem;
+}
+
+.toc-link-resource {
+  font-size: 0.85rem;
+  color: #54595d;
+}
+
+.toc-link-resource:hover {
+  color: #202122;
+}
+
+/* Scrollbar styling for TOC */
+.toc::-webkit-scrollbar {
+  width: 6px;
+}
+
+.toc::-webkit-scrollbar-track {
+  background: #f8f9fa;
+}
+
+.toc::-webkit-scrollbar-thumb {
+  background: #c8ccd1;
+  border-radius: 3px;
+}
+
+.toc::-webkit-scrollbar-thumb:hover {
+  background: #a2a9b1;
+}
