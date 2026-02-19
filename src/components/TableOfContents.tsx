@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { CategoryGroup } from '../types';
 import './TableOfContents.css';
 
@@ -6,12 +7,29 @@ interface TableOfContentsProps {
 }
 
 function TableOfContents({ categoryGroups }: TableOfContentsProps) {
+  // Track which categories are expanded (all collapsed by default)
+  const [expandedCategories, setExpandedCategories] = useState<Set<string>>(
+    new Set()
+  );
+
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
     e.preventDefault();
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
+  };
+
+  const toggleCategory = (category: string) => {
+    setExpandedCategories(prev => {
+      const newSet = new Set(prev);
+      if (newSet.has(category)) {
+        newSet.delete(category);
+      } else {
+        newSet.add(category);
+      }
+      return newSet;
+    });
   };
 
   return (
@@ -24,18 +42,31 @@ function TableOfContents({ categoryGroups }: TableOfContentsProps) {
             .toLowerCase()
             .replace(/[^a-z0-9]+/g, '-')
             .replace(/(^-|-$)/g, '');
+          
+          const isExpanded = expandedCategories.has(group.category);
 
           return (
             <li key={group.category} className="toc-category">
-              <a
-                href={`#category-${categorySlug}`}
-                className="toc-link toc-link-category"
-                onClick={(e) => handleClick(e, `category-${categorySlug}`)}
-              >
-                {group.category}
-              </a>
+              <div className="toc-category-header">
+                <button
+                  className="toc-toggle"
+                  onClick={() => toggleCategory(group.category)}
+                  aria-label={isExpanded ? 'Collapse' : 'Expand'}
+                >
+                  <span className={`toc-arrow ${isExpanded ? 'expanded' : ''}`}>
+                    ▶
+                  </span>
+                </button>
+                <a
+                  href={`#category-${categorySlug}`}
+                  className="toc-link toc-link-category"
+                  onClick={(e) => handleClick(e, `category-${categorySlug}`)}
+                >
+                  {group.category}
+                </a>
+              </div>
               
-              {group.resources.length > 0 && (
+              {group.resources.length > 0 && isExpanded && (
                 <ul className="toc-resources">
                   {group.resources.map((resource) => (
                     <li key={resource.id}>

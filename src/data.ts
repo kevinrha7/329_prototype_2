@@ -9,7 +9,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Academic support, tutoring, and accommodations.',
     description: 'Feedback on papers and writing assignments.',
     tags: ['Free', 'Appointment', 'Academic'],
-    link: '#',
+    link: 'https://www.writing.northwestern.edu/',
   },
   {
     id: 'academic-support',
@@ -18,7 +18,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Academic support, tutoring, and accommodations.',
     description: 'Tutoring + study strategies for hard classes.',
     tags: ['Free', 'Tutoring', 'Academic'],
-    link: '#',
+    link: 'https://www.northwestern.edu/academic-support-learning/',
   },
   {
     id: 'accessible-nu',
@@ -27,7 +27,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Academic support, tutoring, and accommodations.',
     description: 'Disability accommodations and academic access support.',
     tags: ['Confidential', 'Academic Support'],
-    link: '#',
+    link: 'https://www.northwestern.edu/accessiblenu/',
   },
   {
     id: 'peer-guided-study',
@@ -36,7 +36,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Academic support, tutoring, and accommodations.',
     description: 'Weekly study sessions for challenging STEM courses.',
     tags: ['Free', 'Peer Learning', 'STEM'],
-    link: '#',
+    link: 'https://www.northwestern.edu/academic-support-learning/course-support/peer-guided-study-groups/',
   },
   {
     id: 'canvas',
@@ -63,7 +63,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Academic support, tutoring, and accommodations.',
     description: 'Direct help from instructors on course material.',
     tags: ['Free', 'Academic', 'In-person'],
-    link: '#',
+    link: 'https://history.northwestern.edu/undergraduate/teaching-assistant-office-hours.html',
   },
 
   // Career & Internships
@@ -74,7 +74,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Resumes, advising, and job searching tools.',
     description: 'Resume reviews, career advising, and internship planning.',
     tags: ['Appointment', 'Career'],
-    link: '#',
+    link: 'https://www.northwestern.edu/careers/',
   },
   {
     id: 'handshake',
@@ -83,7 +83,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Resumes, advising, and job searching tools.',
     description: 'Search and apply for internships/jobs.',
     tags: ['Online', 'Job Search'],
-    link: '#',
+    link: 'https://www.northwestern.edu/careers/resources/handshake-access.html',
   },
   {
     id: 'vmock',
@@ -92,7 +92,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Resumes, advising, and job searching tools.',
     description: 'AI resume feedback and scoring.',
     tags: ['Online', 'Career Tool'],
-    link: '#',
+    link: 'https://www.northwestern.edu/careers/jobs-internships/resumes/vmock.html',
   },
   {
     id: 'linkedin-learning',
@@ -101,7 +101,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Resumes, advising, and job searching tools.',
     description: 'Free courses on professional skills and software.',
     tags: ['Online', 'Free', 'Skill Building'],
-    link: '#',
+    link: 'https://hr.northwestern.edu/talent-development/development/online-learning/lynda.com.html',
   },
   {
     id: 'big-interview',
@@ -110,7 +110,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Resumes, advising, and job searching tools.',
     description: 'Practice interviews with AI feedback.',
     tags: ['Online', 'Career Tool', 'Interview Prep'],
-    link: '#',
+    link: 'https://www.northwestern.edu/careers/jobs-internships/interviewing/',
   },
   {
     id: 'career-fairs',
@@ -119,7 +119,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Resumes, advising, and job searching tools.',
     description: 'Meet employers and explore career opportunities.',
     tags: ['In-person', 'Networking', 'Career'],
-    link: '#',
+    link: 'https://www.northwestern.edu/careers/programs-opportunities/career-fairs-at-northwestern.html',
   },
   {
     id: 'alumni-network',
@@ -128,7 +128,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Resumes, advising, and job searching tools.',
     description: 'Connect with alumni for career advice and mentorship.',
     tags: ['Networking', 'Mentorship', 'Career'],
-    link: '#',
+    link: 'https://alumni.northwestern.edu/',
   },
 
   // Health & Wellbeing
@@ -139,7 +139,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Mental health, medical care, and wellness.',
     description: 'Confidential mental health counseling and support.',
     tags: ['Confidential', 'Mental Health', 'Appointment'],
-    link: '#',
+    link: 'https://www.northwestern.edu/counseling/',
   },
   {
     id: 'student-health',
@@ -148,7 +148,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Mental health, medical care, and wellness.',
     description: 'Medical care and health appointments.',
     tags: ['In-person', 'Appointment'],
-    link: '#',
+    link: 'https://www.northwestern.edu/healthservice-evanston/',
   },
   {
     id: 'recreation',
@@ -157,7 +157,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Mental health, medical care, and wellness.',
     description: 'Gym access, fitness classes, wellness programs.',
     tags: ['In-person', 'Fitness'],
-    link: '#',
+    link: 'https://nurecreation.com/',
   },
   {
     id: 'timely-care',
@@ -166,7 +166,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Mental health, medical care, and wellness.',
     description: 'Free 24/7 virtual medical and mental health visits.',
     tags: ['24/7', 'Online', 'Mental Health', 'Medical'],
-    link: '#',
+    link: 'https://www.northwestern.edu/nuhelp/self-care/timelycare/',
   },
   {
     id: 'peer-health',
@@ -175,7 +175,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Mental health, medical care, and wellness.',
     description: 'Peer-led wellness workshops and support.',
     tags: ['Peer Support', 'Wellness', 'Free'],
-    link: '#',
+    link: 'https://www.instagram.com/northwestern_phe/',
   },
   {
     id: 'sexual-health',
@@ -184,7 +184,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Mental health, medical care, and wellness.',
     description: 'Confidential support and resources for sexual health.',
     tags: ['Confidential', '24/7', 'Support'],
-    link: '#',
+    link: 'https://www.northwestern.edu/csaw/resources/sexual-health/',
   },
   {
     id: 'nutrition',
@@ -193,7 +193,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Mental health, medical care, and wellness.',
     description: 'One-on-one nutrition and eating support.',
     tags: ['Appointment', 'Confidential', 'Wellness'],
-    link: '#',
+    link: 'https://www.nm.org/conditions-and-care-areas/treatments/nutritional-counseling',
   },
   {
     id: 'mindfulness',
@@ -202,7 +202,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Mental health, medical care, and wellness.',
     description: 'Free meditation sessions and stress relief workshops.',
     tags: ['Free', 'Wellness', 'Mental Health'],
-    link: '#',
+    link: 'https://www.northwestern.edu/csaw/programming/mindfulness-based-stress-reduction-mbsr.html',
   },
 
   // Safety
@@ -213,7 +213,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Emergency support and late-night safety tools.',
     description: 'Emergency response and campus policing.',
     tags: ['Emergency', '24/7'],
-    link: '#',
+    link: 'https://www.northwestern.edu/up/',
   },
   {
     id: 'safe-ride',
@@ -222,7 +222,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Emergency support and late-night safety tools.',
     description: 'Late-night ride or safety escort.',
     tags: ['Free', 'Night Service'],
-    link: '#',
+    link: 'https://www.northwestern.edu/up/',
   },
   {
     id: 'wildcard',
@@ -231,7 +231,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Emergency support and late-night safety tools.',
     description: 'Access buildings and services securely.',
     tags: ['Required', 'Campus Access'],
-    link: '#',
+    link: 'https://www.northwestern.edu/norris/services/wildcard/',
   },
   {
     id: 'rave-guardian',
@@ -240,7 +240,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Emergency support and late-night safety tools.',
     description: 'Mobile safety timer and emergency contact app.',
     tags: ['Mobile App', 'Free', 'Safety'],
-    link: '#',
+    link: 'https://www.northwestern.edu/up/',
   },
   {
     id: 'blue-phones',
@@ -249,7 +249,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Emergency support and late-night safety tools.',
     description: 'Campus-wide emergency call boxes.',
     tags: ['Emergency', 'In-person', '24/7'],
-    link: '#',
+    link: 'https://www.northwestern.edu/up/',
   },
 
   // Tech & Software
@@ -260,7 +260,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Free software and IT help for coursework.',
     description: 'Word/Excel/PowerPoint access for students.',
     tags: ['Free Software', 'Online'],
-    link: '#',
+    link: 'https://www.it.northwestern.edu/software/',
   },
   {
     id: 'adobe',
@@ -269,7 +269,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Free software and IT help for coursework.',
     description: 'Photoshop/Illustrator and other Adobe apps.',
     tags: ['Free Software', 'Design'],
-    link: '#',
+    link: 'https://www.it.northwestern.edu/software/',
   },
   {
     id: 'it-help',
@@ -278,7 +278,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Free software and IT help for coursework.',
     description: 'Help with Wi-Fi, accounts, software issues.',
     tags: ['Support', 'In-person', 'Online'],
-    link: '#',
+    link: 'https://www.it.northwestern.edu/support/',
   },
   {
     id: 'matlab',
@@ -287,7 +287,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Free software and IT help for coursework.',
     description: 'Engineering and scientific computing software.',
     tags: ['Free Software', 'STEM', 'Engineering'],
-    link: '#',
+    link: 'https://www.it.northwestern.edu/software/',
   },
   {
     id: 'zoom',
@@ -296,7 +296,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Free software and IT help for coursework.',
     description: 'Video conferencing for classes and group work.',
     tags: ['Free Software', 'Online', 'Communication'],
-    link: '#',
+    link: 'https://www.it.northwestern.edu/software/',
   },
   {
     id: 'google-workspace',
@@ -305,7 +305,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Free software and IT help for coursework.',
     description: 'Gmail, Drive, Docs, and collaboration tools.',
     tags: ['Free Software', 'Online', 'Collaboration'],
-    link: '#',
+    link: 'https://www.it.northwestern.edu/software/',
   },
   {
     id: 'vpn',
@@ -314,7 +314,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Free software and IT help for coursework.',
     description: 'Secure access to campus resources from anywhere.',
     tags: ['Free Software', 'Security', 'Remote Access'],
-    link: '#',
+    link: 'https://www.it.northwestern.edu/software/',
   },
   {
     id: 'github-education',
@@ -332,7 +332,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Free software and IT help for coursework.',
     description: 'Statistical analysis software for research.',
     tags: ['Free Software', 'Research', 'Data Analysis'],
-    link: '#',
+    link: 'https://www.it.northwestern.edu/software/',
   },
 
   // Money, Food, & Housing
@@ -343,7 +343,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Support for financial stress and basic needs.',
     description: 'Free groceries and food support.',
     tags: ['Free', 'Food Support'],
-    link: '#',
+    link: 'https://www.northwestern.edu/basic-needs/food-security/',
   },
   {
     id: 'emergency-aid',
@@ -352,7 +352,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Support for financial stress and basic needs.',
     description: 'Short-term support for unexpected hardship.',
     tags: ['Confidential', 'Financial Support'],
-    link: '#',
+    link: 'https://www.northwestern.edu/financial-aid/undergraduate/aid-programs/emergency-aid.html',
   },
   {
     id: 'financial-aid',
@@ -361,7 +361,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Support for financial stress and basic needs.',
     description: 'Scholarships, loans, and financial planning help.',
     tags: ['Appointment', 'Financial Support', 'Scholarships'],
-    link: '#',
+    link: 'https://www.northwestern.edu/financial-aid/',
   },
   {
     id: 'meal-plans',
@@ -370,7 +370,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Support for financial stress and basic needs.',
     description: 'Campus dining options and meal plan management.',
     tags: ['Food Support', 'In-person', 'Required'],
-    link: '#',
+    link: 'https://www.northwestern.edu/dining/',
   },
   {
     id: 'housing',
@@ -379,7 +379,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Support for financial stress and basic needs.',
     description: 'On-campus housing support and roommate matching.',
     tags: ['Housing', 'In-person', 'Support'],
-    link: '#',
+    link: 'https://www.northwestern.edu/living/',
   },
   {
     id: 'off-campus-housing',
@@ -388,7 +388,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Support for financial stress and basic needs.',
     description: 'Help finding apartments and understanding leases.',
     tags: ['Housing', 'Online', 'Off-campus'],
-    link: '#',
+    link: 'https://offcampus.northwestern.edu/',
   },
   {
     id: 'student-employment',
@@ -397,7 +397,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Support for financial stress and basic needs.',
     description: 'Find on-campus jobs and work-study positions.',
     tags: ['Job Search', 'Financial Support', 'On-campus'],
-    link: '#',
+    link: 'https://www.northwestern.edu/studentemployment/',
   },
 
   // Community & Student Life
@@ -408,7 +408,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Finding groups, belonging, and involvement.',
     description: 'Find and join student organizations.',
     tags: ['Student Orgs', 'Community'],
-    link: '#',
+    link: 'https://northwestern.campuslabs.com/engage/',
   },
   {
     id: 'norris',
@@ -417,7 +417,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Finding groups, belonging, and involvement.',
     description: 'Student center with dining, events, and meeting spaces.',
     tags: ['In-person', 'Events', 'Community'],
-    link: '#',
+    link: 'https://www.northwestern.edu/norris/',
   },
   {
     id: 'multicultural-centers',
@@ -426,7 +426,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Finding groups, belonging, and involvement.',
     description: 'Cultural centers and identity-based community support.',
     tags: ['Community', 'Support', 'Diversity'],
-    link: '#',
+    link: 'https://www.northwestern.edu/msa/',
   },
   {
     id: 'religious-life',
@@ -435,7 +435,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Finding groups, belonging, and involvement.',
     description: 'Faith-based communities and spiritual resources.',
     tags: ['Community', 'Spiritual', 'Support'],
-    link: '#',
+    link: 'https://www.northwestern.edu/religious-life/',
   },
   {
     id: 'greek-life',
@@ -444,7 +444,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Finding groups, belonging, and involvement.',
     description: 'Greek organizations and recruitment information.',
     tags: ['Community', 'Social', 'Student Orgs'],
-    link: '#',
+    link: 'https://www.northwestern.edu/fsl/',
   },
   {
     id: 'arts-events',
@@ -453,7 +453,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Finding groups, belonging, and involvement.',
     description: 'Concerts, theater, galleries, and performances.',
     tags: ['Events', 'Arts', 'Free'],
-    link: '#',
+    link: 'https://planitpurple.northwestern.edu/',
   },
   {
     id: 'athletics',
@@ -462,7 +462,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Finding groups, belonging, and involvement.',
     description: 'Varsity sports, club teams, and intramurals.',
     tags: ['Sports', 'Recreation', 'In-person'],
-    link: '#',
+    link: 'https://nusports.com/',
   },
   {
     id: 'volunteer',
@@ -471,7 +471,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Finding groups, belonging, and involvement.',
     description: 'Service opportunities and volunteer programs.',
     tags: ['Community Service', 'Volunteer', 'Events'],
-    link: '#',
+    link: 'https://www.northwestern.edu/civic-engagement/',
   },
 
   // Spaces & Facilities
@@ -482,7 +482,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Places to study, create, and collaborate.',
     description: 'Book group or quiet study spaces.',
     tags: ['In-person', 'Reservation'],
-    link: '#',
+    link: 'https://www.library.northwestern.edu/visit/study-spaces/',
   },
   {
     id: 'libraries',
@@ -500,7 +500,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Places to study, create, and collaborate.',
     description: '3D printing, laser cutting, and prototyping tools.',
     tags: ['Innovation', 'In-person', 'Making'],
-    link: '#',
+    link: 'https://www.northwestern.edu/thegarage/',
   },
   {
     id: 'computer-labs',
@@ -509,7 +509,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Places to study, create, and collaborate.',
     description: 'Free computers with specialized software.',
     tags: ['In-person', 'Technology', 'Free'],
-    link: '#',
+    link: 'https://www.it.northwestern.edu/services/labs/',
   },
   {
     id: 'music-practice',
@@ -518,7 +518,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Places to study, create, and collaborate.',
     description: 'Reserve practice spaces with instruments.',
     tags: ['In-person', 'Arts', 'Reservation'],
-    link: '#',
+    link: 'https://www.music.northwestern.edu/resources/practice-rooms.html',
   },
   {
     id: 'meeting-rooms',
@@ -527,7 +527,7 @@ export const resources: Resource[] = [
     categoryBlurb: 'Places to study, create, and collaborate.',
     description: 'Book rooms for club meetings and events.',
     tags: ['In-person', 'Reservation', 'Student Orgs'],
-    link: '#',
+    link: 'https://www.northwestern.edu/norris/reservations/',
   },
   {
     id: 'lakefill',
@@ -536,6 +536,264 @@ export const resources: Resource[] = [
     categoryBlurb: 'Places to study, create, and collaborate.',
     description: 'Beautiful outdoor areas for study and relaxation.',
     tags: ['In-person', 'Outdoor', 'Free'],
-    link: '#',
+    link: 'https://www.northwestern.edu/recreation/facilities/lakefill.html',
+  },
+
+  // Student Life & Events
+  {
+    id: 'dillo-day',
+    title: 'Dillo Day',
+    category: 'Student Life & Events',
+    categoryBlurb: 'Campus traditions, festivals, and student-run events.',
+    description: 'Annual spring music festival on the Lakefill, the largest student-run event in the nation.',
+    tags: ['Festival', 'Music', 'Annual Event', 'Free'],
+    link: 'https://www.dilloday.com/',
+  },
+  {
+    id: 'dance-marathon',
+    title: 'Dance Marathon (NUDM)',
+    category: 'Student Life & Events',
+    categoryBlurb: 'Campus traditions, festivals, and student-run events.',
+    description: '30-hour philanthropy event raising funds for children\'s hospitals.',
+    tags: ['Philanthropy', 'Annual Event', 'Community'],
+    link: 'https://www.nudm.org/',
+  },
+  {
+    id: 'homecoming',
+    title: 'Homecoming Week',
+    category: 'Student Life & Events',
+    categoryBlurb: 'Campus traditions, festivals, and student-run events.',
+    description: 'Week of traditions including the parade, pep rally, and football game.',
+    tags: ['Annual Event', 'Tradition', 'Sports'],
+    link: 'https://www.northwestern.edu/homecoming/',
+  },
+  {
+    id: 'wildcat-welcome',
+    title: 'Wildcat Welcome',
+    category: 'Student Life & Events',
+    categoryBlurb: 'Campus traditions, festivals, and student-run events.',
+    description: 'New student orientation and week of welcome events each fall.',
+    tags: ['Orientation', 'New Students', 'Annual Event'],
+    link: 'https://www.northwestern.edu/orientation/',
+  },
+  {
+    id: 'mayfest',
+    title: 'Mayfest',
+    category: 'Student Life & Events',
+    categoryBlurb: 'Campus traditions, festivals, and student-run events.',
+    description: 'Student organization that plans Dillo Day and spring activities.',
+    tags: ['Student Orgs', 'Events', 'Programming'],
+    link: 'https://www.mayfestproductions.org/',
+  },
+  {
+    id: 'armadillo-day',
+    title: 'Armadillo Day',
+    category: 'Student Life & Events',
+    categoryBlurb: 'Campus traditions, festivals, and student-run events.',
+    description: 'Free fall concert and festival on the Lakefill.',
+    tags: ['Festival', 'Music', 'Annual Event', 'Free'],
+    link: 'https://www.northwestern.edu/norris/armadillo-day/',
+  },
+  {
+    id: 'a-e-productions',
+    title: 'A&E Productions',
+    category: 'Student Life & Events',
+    categoryBlurb: 'Campus traditions, festivals, and student-run events.',
+    description: 'Student board bringing concerts, comedians, and entertainment to campus.',
+    tags: ['Student Orgs', 'Events', 'Entertainment'],
+    link: 'https://www.aeproductions.org/',
+  },
+  {
+    id: 'winter-formal',
+    title: 'Winter Formal',
+    category: 'Student Life & Events',
+    categoryBlurb: 'Campus traditions, festivals, and student-run events.',
+    description: 'Annual semi-formal dance event in winter quarter.',
+    tags: ['Social', 'Annual Event', 'Dance'],
+    link: 'https://www.northwestern.edu/norris/winter-formal/',
+  },
+  {
+    id: 'primal-scream',
+    title: 'Primal Scream',
+    category: 'Student Life & Events',
+    categoryBlurb: 'Campus traditions, festivals, and student-run events.',
+    description: 'Finals week tradition of screaming together at 9pm to relieve stress.',
+    tags: ['Tradition', 'Stress Relief', 'Community'],
+    link: 'https://www.northwestern.edu/norris/primal-scream/',
+  },
+  {
+    id: 'block-seating',
+    title: 'Block Seating (Football Games)',
+    category: 'Student Life & Events',
+    categoryBlurb: 'Campus traditions, festivals, and student-run events.',
+    description: 'Free student section tickets for Northwestern football games.',
+    tags: ['Sports', 'Free', 'In-person'],
+    link: 'https://nusports.com/sports/2015/7/17/GEN_20140101146.aspx',
+  },
+
+  // Professional Fraternities
+  {
+    id: 'delta-sigma-pi',
+    title: 'Delta Sigma Pi (DSP)',
+    category: 'Professional Fraternities',
+    categoryBlurb: 'Co-ed business and professional development organizations.',
+    description: 'Professional business fraternity focused on networking and career development.',
+    tags: ['Business', 'Networking', 'Professional Development'],
+    link: 'https://northwestern.campuslabs.com/engage/organization/deltasigmapi',
+  },
+  {
+    id: 'alpha-kappa-psi',
+    title: 'Alpha Kappa Psi (AKPsi)',
+    category: 'Professional Fraternities',
+    categoryBlurb: 'Co-ed business and professional development organizations.',
+    description: 'Professional business fraternity emphasizing leadership and service.',
+    tags: ['Business', 'Leadership', 'Professional Development'],
+    link: 'https://northwestern.campuslabs.com/engage/organization/alphakappapsi',
+  },
+  {
+    id: 'phi-alpha-delta',
+    title: 'Phi Alpha Delta (PAD)',
+    category: 'Professional Fraternities',
+    categoryBlurb: 'Co-ed business and professional development organizations.',
+    description: 'Pre-law professional fraternity for students interested in legal careers.',
+    tags: ['Pre-Law', 'Legal', 'Professional Development'],
+    link: 'https://northwestern.campuslabs.com/engage/organization/phialphadelta',
+  },
+  {
+    id: 'alpha-phi-omega',
+    title: 'Alpha Phi Omega (APO)',
+    category: 'Professional Fraternities',
+    categoryBlurb: 'Co-ed business and professional development organizations.',
+    description: 'Co-ed service fraternity focused on leadership, friendship, and service.',
+    tags: ['Service', 'Leadership', 'Community Service'],
+    link: 'https://northwestern.campuslabs.com/engage/organization/alphaphiomega',
+  },
+  {
+    id: 'theta-tau',
+    title: 'Theta Tau',
+    category: 'Professional Fraternities',
+    categoryBlurb: 'Co-ed business and professional development organizations.',
+    description: 'Professional engineering fraternity for engineering students.',
+    tags: ['Engineering', 'Professional Development', 'STEM'],
+    link: 'https://northwestern.campuslabs.com/engage/organization/thetatau',
+  },
+  {
+    id: 'delta-epsilon-mu',
+    title: 'Delta Epsilon Mu (DEM)',
+    category: 'Professional Fraternities',
+    categoryBlurb: 'Co-ed business and professional development organizations.',
+    description: 'Pre-health professional fraternity for students pursuing medical careers.',
+    tags: ['Pre-Med', 'Health', 'Professional Development'],
+    link: 'https://northwestern.campuslabs.com/engage/organization/deltaepsilonmu',
+  },
+  {
+    id: 'phi-delta-epsilon',
+    title: 'Phi Delta Epsilon (PhiDE)',
+    category: 'Professional Fraternities',
+    categoryBlurb: 'Co-ed business and professional development organizations.',
+    description: 'International medical fraternity promoting excellence in healthcare.',
+    tags: ['Pre-Med', 'Medical', 'Professional Development'],
+    link: 'https://northwestern.campuslabs.com/engage/organization/phideltaepsilon',
+  },
+  {
+    id: 'kappa-theta-pi',
+    title: 'Kappa Theta Pi (KTP)',
+    category: 'Professional Fraternities',
+    categoryBlurb: 'Co-ed business and professional development organizations.',
+    description: 'Professional technology fraternity for students in tech and entrepreneurship.',
+    tags: ['Technology', 'Entrepreneurship', 'Professional Development'],
+    link: 'https://northwestern.campuslabs.com/engage/organization/kappathetapi',
+  },
+
+  // Northwestern Affiliated or Sponsored Licensing
+  {
+    id: 'jetbrains',
+    title: 'JetBrains IDEs (IntelliJ, PyCharm, etc.)',
+    category: 'Northwestern Affiliated or Sponsored Licensing',
+    categoryBlurb: 'Student discounts on software, services, and subscriptions.',
+    description: 'Free professional development tools for students.',
+    tags: ['Free Software', 'Development', 'IDE'],
+    link: 'https://www.jetbrains.com/community/education/',
+  },
+  {
+    id: 'autodesk',
+    title: 'Autodesk Education (AutoCAD, Fusion 360)',
+    category: 'Northwestern Affiliated or Sponsored Licensing',
+    categoryBlurb: 'Student discounts on software, services, and subscriptions.',
+    description: 'Free CAD and 3D modeling software for students.',
+    tags: ['Free Software', 'Design', 'Engineering'],
+    link: 'https://www.autodesk.com/education/home',
+  },
+  {
+    id: 'spotify-premium',
+    title: 'Spotify Premium Student',
+    category: 'Northwestern Affiliated or Sponsored Licensing',
+    categoryBlurb: 'Student discounts on software, services, and subscriptions.',
+    description: 'Discounted music streaming for students.',
+    tags: ['Student Discount', 'Entertainment', 'Subscription'],
+    link: 'https://www.spotify.com/student/',
+  },
+  {
+    id: 'apple-music',
+    title: 'Apple Music Student',
+    category: 'Northwestern Affiliated or Sponsored Licensing',
+    categoryBlurb: 'Student discounts on software, services, and subscriptions.',
+    description: 'Discounted Apple Music subscription for students.',
+    tags: ['Student Discount', 'Entertainment', 'Subscription'],
+    link: 'https://www.apple.com/apple-music/',
+  },
+  {
+    id: 'amazon-prime',
+    title: 'Amazon Prime Student',
+    category: 'Northwestern Affiliated or Sponsored Licensing',
+    categoryBlurb: 'Student discounts on software, services, and subscriptions.',
+    description: 'Discounted Prime membership with free shipping and streaming.',
+    tags: ['Student Discount', 'Shopping', 'Subscription'],
+    link: 'https://www.amazon.com/studentprime',
+  },
+  {
+    id: 'tableau',
+    title: 'Tableau for Students',
+    category: 'Northwestern Affiliated or Sponsored Licensing',
+    categoryBlurb: 'Student discounts on software, services, and subscriptions.',
+    description: 'Free data visualization software for academic use.',
+    tags: ['Free Software', 'Data Analysis', 'Visualization'],
+    link: 'https://www.tableau.com/academic/students',
+  },
+  {
+    id: 'canva-pro',
+    title: 'Canva Pro for Education',
+    category: 'Northwestern Affiliated or Sponsored Licensing',
+    categoryBlurb: 'Student discounts on software, services, and subscriptions.',
+    description: 'Free premium design tools for students.',
+    tags: ['Free Software', 'Design', 'Online'],
+    link: 'https://www.canva.com/education/',
+  },
+  {
+    id: 'notion',
+    title: 'Notion Education Plan',
+    category: 'Northwestern Affiliated or Sponsored Licensing',
+    categoryBlurb: 'Student discounts on software, services, and subscriptions.',
+    description: 'Free productivity and note-taking workspace for students.',
+    tags: ['Free Software', 'Productivity', 'Online'],
+    link: 'https://www.notion.so/students',
+  },
+  {
+    id: 'aws-educate',
+    title: 'AWS Educate',
+    category: 'Northwestern Affiliated or Sponsored Licensing',
+    categoryBlurb: 'Student discounts on software, services, and subscriptions.',
+    description: 'Free cloud computing credits and training for students.',
+    tags: ['Free Software', 'Cloud Computing', 'Development'],
+    link: 'https://aws.amazon.com/education/awseducate/',
+  },
+  {
+    id: 'figma-education',
+    title: 'Figma for Education',
+    category: 'Northwestern Affiliated or Sponsored Licensing',
+    categoryBlurb: 'Student discounts on software, services, and subscriptions.',
+    description: 'Free professional design and prototyping tools.',
+    tags: ['Free Software', 'Design', 'Collaboration'],
+    link: 'https://www.figma.com/education/',
   },
 ];

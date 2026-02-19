@@ -39,12 +39,29 @@
   padding: 0.25rem 0.6rem;
   border-radius: 3px;
   border: 1px solid #c8ccd1;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: inherit;
+}
+
+.resource-tag:hover {
+  background-color: #4E2A84;
+  color: white;
+  border-color: #4E2A84;
+  transform: translateY(-1px);
+}
+
+.resource-tag.tag-active {
+  background-color: #4E2A84;
+  color: white;
+  border-color: #4E2A84;
+  font-weight: 600;
 }
 
 .resource-link {
   display: inline-flex;
   align-items: center;
-  color: #0645ad;
+  color: #4E2A84;
   font-size: 0.9rem;
   font-weight: 500;
   text-decoration: none;
@@ -52,6 +69,6 @@
 }
 
 .resource-link:hover {
-  color: #0b0080;
+  color: #3d2166;
   text-decoration: underline;
 }

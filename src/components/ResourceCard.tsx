@@ -3,9 +3,11 @@ import './ResourceCard.css';
 
 interface ResourceCardProps {
   resource: Resource;
+  onTagClick: (tag: string) => void;
+  selectedTag: string | null;
 }
 
-function ResourceCard({ resource }: ResourceCardProps) {
+function ResourceCard({ resource, onTagClick, selectedTag }: ResourceCardProps) {
   return (
     <div className="resource-card" id={`resource-${resource.id}`}>
       <h3 className="resource-title">{resource.title}</h3>
@@ -13,9 +15,14 @@ function ResourceCard({ resource }: ResourceCardProps) {
       
       <div className="resource-tags">
         {resource.tags.map((tag) => (
-          <span key={tag} className="resource-tag">
+          <button
+            key={tag}
+            className={`resource-tag ${selectedTag === tag ? 'tag-active' : ''}`}
+            onClick={() => onTagClick(tag)}
+            title={`Filter by ${tag}`}
+          >
             {tag}
-          </span>
+          </button>
         ))}
       </div>
 

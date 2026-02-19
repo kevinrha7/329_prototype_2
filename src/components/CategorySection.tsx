@@ -4,9 +4,11 @@ import './CategorySection.css';
 
 interface CategorySectionProps {
   group: CategoryGroup;
+  onTagClick: (tag: string) => void;
+  selectedTag: string | null;
 }
 
-function CategorySection({ group }: CategorySectionProps) {
+function CategorySection({ group, onTagClick, selectedTag }: CategorySectionProps) {
   // Create a slug for the category anchor
   const categorySlug = group.category
     .toLowerCase()
@@ -20,7 +22,12 @@ function CategorySection({ group }: CategorySectionProps) {
       
       <div className="resource-grid">
         {group.resources.map((resource) => (
-          <ResourceCard key={resource.id} resource={resource} />
+          <ResourceCard 
+            key={resource.id} 
+            resource={resource} 
+            onTagClick={onTagClick}
+            selectedTag={selectedTag}
+          />
         ))}
       </div>
     </section>
