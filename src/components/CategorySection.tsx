@@ -5,10 +5,18 @@ import './CategorySection.css';
 interface CategorySectionProps {
   group: CategoryGroup;
   onTagClick: (tag: string) => void;
-  selectedTag: string | null;
+  selectedTags: string[];
+  onToggleBookmark: (resourceId: string) => void;
+  bookmarkedIds: string[];
 }
 
-function CategorySection({ group, onTagClick, selectedTag }: CategorySectionProps) {
+function CategorySection({
+  group,
+  onTagClick,
+  selectedTags,
+  onToggleBookmark,
+  bookmarkedIds,
+}: CategorySectionProps) {
   // Create a slug for the category anchor
   const categorySlug = group.category
     .toLowerCase()
@@ -26,7 +34,9 @@ function CategorySection({ group, onTagClick, selectedTag }: CategorySectionProp
             key={resource.id} 
             resource={resource} 
             onTagClick={onTagClick}
-            selectedTag={selectedTag}
+            selectedTags={selectedTags}
+            onToggleBookmark={onToggleBookmark}
+            isBookmarked={bookmarkedIds.includes(resource.id)}
           />
         ))}
       </div>

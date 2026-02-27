@@ -30,6 +30,7 @@
 .subtitle {
   color: #e8e0f5;
   font-size: 0.95rem;
+  margin: 0.45rem 0 0.7rem;
 }
 
 .layout {
@@ -51,6 +52,12 @@
   top: 200px; /* Adjusted to be below the sticky header */
   max-height: calc(100vh - 220px);
   overflow-y: auto;
+}
+
+.sidebar-feedback {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.9rem;
 }
 
 .no-results {
@@ -127,6 +134,10 @@
     max-height: none;
     border-top: 1px solid #a2a9b1;
     padding-top: 2rem;
+  }
+
+  .sidebar-feedback {
+    margin-top: 1rem;
   }
 }
 
